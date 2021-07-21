@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Lato-Bold';
+    font-style: 700;
+    font-weight: normal;
+    src: local('Lato-Bold'),
+        url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-Semibold';
+    font-style: 600;
+    font-weight: normal;
+    src: local('Lato-Semibold'),
+        url('../fonts/Lato-Semibold.woff2') format('woff2'),
+        url('../fonts/Lato-Semibold.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-Regular';
+    font-style: 400;
+    font-weight: normal;
+    src: local('Lato-Regular'),
+        url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato-Light';
+    font-style: 300;
+    font-weight: normal;
+    src: local('Lato-Light'),
+        url('../fonts/Lato-Light.woff2') format('woff2'),
+        url('../fonts/Lato-Light.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signika-Light';
+    font-style: 300;
+    font-weight: normal;
+    src: local('Signika-Light'),
+        url('../fonts/Signika-Light.woff2') format('woff2'),
+        url('../fonts/Signika-Light.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signika-Regular';
+    font-style: 400;
+    font-weight: normal;
+    src: local('Signika-Regular'),
+        url('../fonts/Signika-Regular.woff2') format('woff2'),
+        url('../fonts/Signika-Regular.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signika-Semibold',
+    sans-serif;
+    font-style: 600;
+    font-weight: normal;
+    src: local('Signika-Semibold'),
+        url('../fonts/Signika-Semibold.woff2') format('woff2'),
+        url('../fonts/Signika-Semibold.woff') format('woff');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signika-Bold';
+    font-style: 700;
+    font-weight: normal;
+    src: local('Signika-Bold'),
+        url('../fonts/Signika-Bold.woff2') format('woff2'),
+        url('../fonts/Signika-Bold.woff') format('woff');
+    font-display: swap; 
+}
