@@ -17,6 +17,7 @@
                     <a class="header__inner header__inner-auto" href="#">АДРЕС И ВРЕМЯ ДОСТАВКИ</a>
                     <a class="header__inner header__inner-call" href="#">ГОРЯЧАЯ ЛИНИЯ 24/7</a>
                 </div>
+
                 <nav class="menu">
                     <ul class="menu__list">
                         <li class="menu__list-item">
@@ -35,18 +36,18 @@
 
         <div class="header__bottom">
             <div class="container">
-                <div class="header__inner">
-                    <div class="logo">
-                        <img class="logo-img" src="images/logo.png" height="60" alt="logo">
-                    </div>
+                <div class="header__bottom-inner">
+                    <a class="logo" href="#">
+                        <img class="logo__img" src="images/logo.png" height="60" alt="логотип фрешок">
+                    </a>
 
                     <div class="catalog">
                         <span class="catalog__text">Каталог продуктов</span>
                     </div>
 
                     <form class="search-form">
-                        <input class="search-form__input" type="search" name="text" placeholder="Найти в магазине ...">
-                        <button class="search-form__button" type="submit" name="">Поиск</button>
+                        <input class="search-form__input" type="search" name="text" required placeholder="Найти в магазине ...">
+                        <button class="search-form__button" type="submit" name="search">Поиск</button>
                     </form>
 
                     <div class="user-nav">
@@ -81,6 +82,7 @@
                             </svg>
                             <span class="user-nav__num">12</span>
                         </a>
+
                     </div>
                 </div>
             </div>
@@ -88,42 +90,80 @@
     </header>
 
     <main class="main">
-        <section class="top-slider">
-            <div class="container">
-                <div class="top-slider__inner">
-
-                    <div class="top-slider__item">
-                        <div class="top-slider__content">
-                            <h3 class="top-slider-title">
-                                НАКРУТИ СЕБЕ ТОМАТОВ АКЦИЯ: 3 кг по цене 1
+        <section class="slider">
+            <div class="slider__inner">
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__item-info">
+                            <h3 class="slider__item-title slider__item-title1">
+                                Пусть остальные позеленеют от зависти <span class="slider__item-color">Распродажа
+                                    зелени</span>
                             </h3>
-                            <p class="top-slider-text">Только с 12 по 15 июля скидка на домашние помидорчики</p>
-                            <img class="top-slider__img" src="images/slider/stefano.jpg" alt="slider images">
-                            <a class="top-slider-link" href="#">купить сейчас</a>
+                            <a class="slider__item-btn" href="#">Купить сейчас</a>
+                        </div>
+                        <div class="slider__item-images">
+                            <img class="slider__item-img" src="images/slider/petra.jpg" width="1920" alt="slider" />
                         </div>
                     </div>
+                </div>
 
-                    <div class="top-slider__item">
-                        <div class="top-slider__content">
-                            <h3 class="top-slider-title">
-                                Пусть остальные позеленеют от зависти Распродажа зелени
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__item-info">
+                            <h3 class="slider__item-title slider__item-title2">
+                                НАКРУТИ СЕБЕ ТОМАТОВ <span class="slider__item-color">АКЦИЯ: 3 кг по цене 1</span>
                             </h3>
-                            <a class="top-slider-link" href="#">купить сейчас</a>
-                            <img class="top-slider__img" src="images/slider/petra.jpg" alt="slider images">
+                            <p class="slider__item-text">Только с 12 по 15 июля скидка на домашние помидорчики</p>
+                            <a class="slider__item-btn" href="#">Купить сейчас</a>
+                        </div>
+                        <div class="slider__item-images">
+                            <img class="slider__item-img" src="images/slider/stefano.jpg" width="1920" alt="slider" />
                         </div>
                     </div>
+                </div>
 
-                    <div class="top-slider__item">
-                        <div class="top-slider__content">
-                            <h3 class="top-slider-title">
-                                СВЕЖАЧОК ВАМ в ХАТУ Скидка -50%
+                <div class="slider__item">
+                    <div class="slider__item-content">
+                        <div class="slider__item-info">
+                            <h3 class="slider__item-title slider__item-title3">
+                                СВЕЖАЧОК ВАМ в ХАТУ<span class="slider__item-color"> Скидка -50%</span>
                             </h3>
-                            <p class="top-slider-text">Только с 7 по 13 июля скидка на сезонные фрукты и овощи до 50%. Торопитесь!</p>
-                            <a class="top-slider-link" href="#">купить сейчас</a>
-                            <img class="top-slider__img" src="images/slider/gabriel.jpg" alt="slider images">
+                            <p class="slider__item-text">Только с 7 по 13 июля скидка на сезонные фрукты и овощи до 50%. Торопитесь!
+                            </p>
+                            <a class="slider__item-btn" href="#">Купить сейчас</a>
+                        </div>
+                        <div class="slider__item-images">
+                            <img class="slider__item-img" src="images/slider/gabriel.jpg" width="1920" alt="slider" />
                         </div>
                     </div>
+                </div>
+            </div>
 
+            <div class="services">
+                <div class="container">
+                    <div class="services__items">
+                        <div class="services__item services__item--auto">
+                            <h4 class="services__item-title">Бесплатная доставка</h4>
+                            <span class="services__item-text">
+                                Для заказов на сумму от 500 ₽
+                            </span>
+                        </div>
+
+                        <div class="services__item services__item--refund">
+                            <h4 class="services__item-title">Возврат товара</h4>
+                            <span class="services__item-text">
+                                Если товары были испорчены
+                            </span>
+                        </div>
+
+                        <div class="services__item services__item--support">
+                            <h4 class="services__item-title">Поддержка 24/7</h4>
+                            <span class="services__item-text">
+                                Лучшие операторы
+                            </span>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </section>
@@ -132,7 +172,7 @@
 
 
 
-    <script src="js/main.main.js"></script>
+    <script src="js/main.min.js"></script>
 
 </body>
 
