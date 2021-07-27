@@ -108,7 +108,8 @@
     position: relative;
     &__input {
         padding: 15px 50px;
-        background-color: $white border-radius: 6px;
+        background-color: $white;
+        border-radius: 6px;
         border: none;
         @extend %lato-600;
         line-height: 1.3;
