@@ -458,6 +458,19 @@
             cursor: pointer;
         }
     }
+    &__oldprice {
+        display: block;
+        color: #C1C1C1;
+        &::after {
+            position: absolute;
+            content: "";
+            bottom: 53px;
+            left: 21px;
+            border: 1px solid #C1C1C1;
+            width: 32px;
+            transform: rotate(-14.99deg);
+        }
+    }
     &__btn {
         display: block;
         padding: 12px 24px;
