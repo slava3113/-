@@ -1,8 +1,13 @@
-    $(function() {
+$(function () {
+  $(".top__slider").slick({
+    dots: false,
+    arrows: true,
+  });
+  $(".slider-brands__items").slick({
+    arrows: false,
+    slidesToShow: 6,
+    slidesToScroll: 3,
+  });
 
-        $(".slider__inner").slick({
-            dots: false,
-            arrows: true
-        });
-        var mixer = mixitup(".assortment__items");
-    });
+  var mixer = mixitup(".assortment__item", ".stocks__items");
+});
