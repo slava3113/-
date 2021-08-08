@@ -10,19 +10,21 @@ $yellow-900: #ffb800;
 $silver-600: #c1c1c1;
 $silver-100: #f6f6f6;
 $white: #ffffff;
-
 %lato-700 {
     font-family: 'Lato-Bold', sans-serif;
     font-weight: 700;
 }
+
 %lato-600 {
     font-family: 'Lato-Samibold', sans-serif;
     font-weight: 600;
 }
+
 %lato-400 {
     font-family: 'Lato-Regular', sans-serif;
     font-weight: 400;
 }
+
 %lato-300 {
     font-family: 'Lato-Light', sans-serif;
     font-weight: 300;
@@ -32,15 +34,27 @@ $white: #ffffff;
     font-family: 'Signika-Bold', sans-serif;
     font-weight: 700;
 }
+
 %signika-600 {
     font-family: 'Signika-Samibold', sans-serif;
     font-weight: 600;
 }
+
 %signika-400 {
     font-family: 'Signika-Regular', sans-serif;
     font-weight: 400;
 }
+
 %signika-300 {
     font-family: 'Signika-Light', sans-serif;
     font-weight: 300;
+}
+
+elect {
+    font: inherit;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
