@@ -44,9 +44,9 @@
           </a>
 
           <div class="catalog">
-            <button class="catalog__btn" type="button">
+            <a class="catalog__btn" type="button">
               Каталог продуктов
-            </button>
+            </a>
           </div>
 
           <form class="search__form">
@@ -109,7 +109,7 @@
                 </p>
               </div>
               <div class="button-btn">
-                <button class="button__btn" type="button">Купить сейчас</button>
+                <button class="button__btn button" type="button">Купить сейчас</button>
               </div>
             </div>
           </div>
@@ -212,8 +212,7 @@
                   <img src="images/icons/heart-b.svg" alt="Кнопка избранное" />
                 </button>
                 <div class="cart__box">
-                  <span class="cart__box cart__box--green">новинка</span>
-                  <span class="cart__box cart__box--red">-50%</span>
+                  <span class="cart__box--green">новинка</span>
                 </div>
                 <img class="card__img" src="images/products/pineapple.svg" width="300" height="224" alt="ананас" />
                 <h3 class="card__text">Ананас, 1кг</h3>
@@ -250,7 +249,7 @@
                   <img src="images/icons/heart-b.svg" alt="Кнопка избранное" />
                 </button>
                 <div class="cart__box">
-                  <span class="cart__box cart__box--orange">хит</span>
+                  <span class="cart__box--orange">хит</span>
                 </div>
                 <img class="card__img" src="images/products/dragonfruit.svg" width="300" height="224" alt="ананас" />
                 <h3 class="card__text"> Питахайя красная с белой мякотью, 1шт</h3>
@@ -288,7 +287,7 @@
                   <img src="images/icons/heart-b.svg" alt="Кнопка избранное" />
                 </button>
                 <div class="cart__box">
-                  <span class="cart__box--orange">Хит</span>
+                  <span class="cart__box--orange">хит</span>
                 </div>
                 <img class="card__img" src="images/products/carrot.svg" width="300" height="224" alt="ананас" />
                 <h3 class="card__text">Морковь молодая с бабушкиной грядки, 1кг</h3>
@@ -329,7 +328,7 @@
                   <img src="images/icons/heart-b.svg" alt="Кнопка избранное" />
                 </button>
                 <div class="cart__box">
-                  <span class="cart__box--green">Новинка</span>
+                  <span class="cart__box--green">новинка</span>
                 </div>
                 <img class="card__img" src="images/products/coffee.svg" width="300" height="224" alt="ананас" />
                 <h3 class="card__text"> Кофе с коноплей органический Caffé Salomoni 250г</h3>
@@ -358,9 +357,9 @@
               </article>
             </li>
           </ul>
-          <div class="button">
+          <!-- <div class="button">
             <button class="button__btn-fon" type="button">Показать еще</button>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -415,17 +414,17 @@
 
           <ul class="stocks__items">
             <li class="stocks__item ">
-              <article class="stocks__card mix category-a">
-                <div class="stocks__img">
-                  <div class="cart__box">
-                    <span class="cart__box--green">новинка</span>
-                    <img src="images/stocks/a100.svg" height="100" white="90" />
+              <article class="stocks__card mix category-a">   
+                <div class="stocks__img">           
+                  <div class="cart__box cart__min">                 
+                    <span class="cart__box--green">новинка</span>                  
                   </div>
+                  <img src="images/stocks/a100.svg" height="100" white="100" />
                 </div>
                 <div class="stocks__card-info">
-                  <h4 class="stocks__card-title">Ананас, 1 кг</h4>
-                  <span class="stocks__card-text stocks__card-green">в наличии</span>
+                  <h4 class="stocks__card-title">Ананас, 1 кг</h4>              
                   <div class="stocks__card-price">
+                    <span class="stocks__card-text stocks__card-green">в наличии</span>
                     <span class="stocks__card-rate">999</span> <span>₽</span>
                     <span class="stocks__card-oldprice">1999 ₽</span>
                     <span class="star">4.5</span>
@@ -437,15 +436,15 @@
             <li class="stocks__item">
               <article class="stocks__card mix category-a">
                 <div class="stocks__img">
-                  <div class="cart__box">
-                    <span class="cart__box--green">новинка</span>
-                    <img src="images/stocks/coff100.svg" width="100" height="90" />
+                  <div class="cart__box cart__min">
+                    <span class="cart__box--green">новинка</span>                  
                   </div>
+                  <img src="images/stocks/coff100.svg" width="100" height="100" />
                 </div>
                 <div class="stocks__card-info">
-                  <h4 class="stocks__card-title">Кофе с коноплей органический Caffé Salomoni 250г</h4>
-                  <span class="stocks__card-text stocks__card-red">заканчивается</span>
+                  <h4 class="stocks__card-title">Кофе с коноплей органический Caffé Salomoni 250г</h4>            
                   <div class="stocks__card-price">
+                    <span class="stocks__card-text stocks__card-red">заканчивается</span>
                     <span class="stocks__card-rate">777</span> <span>₽</span>
                     <span class="stocks__card-oldprice">877 ₽</span>
                     <div class="star">4.9</div>
@@ -457,15 +456,15 @@
             <li class="stocks__item ">
               <article class="stocks__card mix category-a">
                 <div class="stocks__img">
-                  <div class="cart__box">
+                  <div class="cart__box cart__min">
                     <span class="cart__box--green">новинка</span>
                   </div>
-                  <img src="images/stocks/kl100.svg" width="100" height="90" />
+                  <img src="images/stocks/kl100.svg" width="100" height="100" />
                 </div>
                 <div class="stocks__card-info">
-                  <h4 class="stocks__card-title">Клубника, 1 кг</h4>
-                  <span class="stocks__card-text stocks__card-gray">нет в наличии</span>
+                  <h4 class="stocks__card-title">Клубника, 1 кг</h4>           
                   <div class="stocks__card-price">
+                    <span class="stocks__card-text stocks__card-gray">нет в наличии</span>
                     <span class="stocks__card-rate">440</span> <span>₽</span>
                     <span class="stocks__card-oldprice">600 ₽</span>
                     <div class="star">5.0</div>
@@ -477,15 +476,15 @@
             <li class="stocks__item ">
               <article class="stocks__card mix category-a">
                 <div class="stocks__img">
-                  <div class="cart__box">
+                  <div class="cart__box cart__min">
                     <span class="cart__box--green">новинка</span>
                   </div>
-                  <img src="images/stocks/mango100.svg" width="100" height="90" />
+                  <img src="images/stocks/mango100.svg" width="100" height="100" />
                 </div>
                 <div class="stocks__card-info">
-                  <h4 class="stocks__card-title">Манго, 1 шт</h4>
-                  <span class="stocks__card-text stocks__card-green">в наличии</span>
+                  <h4 class="stocks__card-title">Манго, 1 шт</h4>                 
                   <div class="stocks__card-price">
+                    <span class="stocks__card-text stocks__card-green">в наличии</span>
                     <span class="stocks__card-rate">660</span> <span>₽</span>
                     <span class="stocks__card-oldprice">960 ₽</span>
                     <div class="star">5.0</div>
@@ -497,15 +496,15 @@
             <li class="stocks__item">
               <article class="stocks__card mix category-a">
                 <div class="stocks__img">
-                  <div class="cart__box">
+                  <div class="cart__box cart__min">
                     <span class="cart__box--green">новинка</span>
                   </div>
-                  <img src="images/stocks/salmon100.svg" width="100" height="90" />
+                  <img src="images/stocks/salmon100.svg" width="100" height="100" />
                 </div>
                 <div class="stocks__card-info">
-                  <h4 class="stocks__card-title">Лосось, 1 кг</h4>
-                  <span class="stocks__card-text stocks__card-green">в наличии</span>
+                  <h4 class="stocks__card-title">Лосось, 1 кг</h4>               
                   <div class="stocks__card-price">
+                    <span class="stocks__card-text stocks__card-green">в наличии</span>
                     <span class="stocks__card-rate">999</span> <span>₽</span>
                     <span class="stocks__card-oldprice">1199 ₽</span>
                     <div class="star">5.0</div>
@@ -517,15 +516,15 @@
             <li class="stocks__item">
               <article class="stocks__card  mix category-b">
                 <div class="stocks__img">
-                  <div class="cart__box">
+                  <div class="cart__box cart__min">
                     <span class="cart__box--orange">хит</span>
                   </div>
-                  <img src="images/stocks/vegjuice100.svg" width="100" height="90" />
+                  <img src="images/stocks/vegjuice100.svg" width="100" height="100" />
                 </div>
                 <div class="stocks__card-info">
-                  <h4 class="stocks__card-title">Сок Granini овощной 100%, 0.5л</h4>
-                  <div class="stocks__card-text stocks__card-red">заканчивается</div>
+                  <h4 class="stocks__card-title">Сок Granini овощной 100%, 0.5л</h4>                  
                   <div class="stocks__card-price">
+                    <div class="stocks__card-text stocks__card-red">заканчивается</div>
                     <span class="stocks__card-rate">180</span> <span>₽</span>
                     <span class="stocks__card-oldprice">230 ₽</span>
                     <div class="star">4.9</div>
@@ -537,15 +536,16 @@
             <li class="stocks__item">
               <article class="stocks__card mix category-b">
                 <div class="stocks__img">
-                  <div class="cart__box">
+                  <div class="cart__box cart__min">
                     <span class="cart__box--orange">хит</span>
                   </div>
-                  <img src="images/stocks/basket100.svg" width="100" height="90" />
+                  <img src="images/stocks/basket100.svg" width="100" height="100" />
                 </div>
                 <div class="stocks__card-info">
                   <h4 class="stocks__card-title">Фруктовая корзина, 1 шт</h4>
-                  <span class="stocks__card-text stocks__card-green">в наличии</span>
+                  
                   <div class="stocks__card-price">
+                    <span class="stocks__card-text stocks__card-green">в наличии</span>
                     <span class="stocks__card-rate">3990</span> <span>₽</span>
                     <span class="stocks__card-oldprice">5990 ₽</span>
                     <div class="star">4.8</div>
@@ -557,15 +557,16 @@
             <li class="stocks__item">
               <article class="stocks__card mix category-b">
                 <div class="stocks__img">
-                  <div class="cart__box">
+                  <div class="cart__box cart__min">
                     <span class="cart__box--orange">хит</span>
                   </div>
-                  <img src="images/stocks/sv100.svg" width="100" height="90" />
+                  <img src="images/stocks/sv100.svg" width="100" height="100" />
                 </div>
                 <div class="stocks__card-info">
                   <h4 class="stocks__card-title">Свинина мякоть, 1 кг</h4>
-                  <span class="stocks__card-text stocks__card-green">в наличии</span>
+                  
                   <div class="stocks__card-price">
+                    <span class="stocks__card-text stocks__card-green">в наличии</span>
                     <span class="stocks__card-rate">499</span> <span>₽</span>
                     <span class="stocks__card-oldprice">599 ₽</span>
                     <div class="star">5.0</div>
