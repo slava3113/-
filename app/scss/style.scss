@@ -47,12 +47,25 @@
   }
 }
 
-.button__btn {
+ .button__btn {
   padding: 12px 24px;
   background-color: $green-900;
   border-radius: 6px;
   color: $white;
   border: none;
+  &:hover {
+    background: #4d810c;
+  }
+  &:focus {
+    background: #63A60E;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  &:active {
+    color: rgba(255, 255, 255, 0.5);
+    background: #63A60E;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: rgba(255, 255, 255, 0.5);
+  }
 }
 
 .menu {
@@ -127,6 +140,7 @@
 .search {
   &__form {
     position: relative;
+    display: flex;
 
     &::before {
       content: "";
@@ -193,9 +207,9 @@
       background: #0c0a0a;
       opacity: 0.1;
       border-radius: 3px;
-      top: -12px;
-      right: 17px;
-      padding: 12px;
+      top: -7px;
+      right: 16px;
+      padding: 25px;
     }
   }
 
@@ -318,8 +332,6 @@
   }
 }
 
-
-
 .services {
   background-color: $silver-100;
   padding: 40px 0;
@@ -410,6 +422,30 @@
     text-transform: uppercase;
     font-size: 15px;
   }
+  .button__bg{
+    background-color: #FFFFFF;
+    border: 1px solid #63A60E;
+    border-radius: 6px;
+    color: $green-900;
+    padding: 12px 24px;
+    display: block;
+    margin: 0 auto;
+
+    &:hover {
+      background: #EFF6E7;
+    }
+
+    &:active {
+      background-color: #63a60e;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      color: rgba(99, 166, 14, 0.5);
+    }
+
+    &:focus {
+      background: #EFF6E7;
+        border: 1px solid #63A60E;
+    }
+  }
 }
 
 .assortment {
@@ -484,16 +520,6 @@
   }
 }
 
-.button__btn-fon {
-  padding: 12px 24px;
-  background-color: $white;
-  color: $green-900;
-  border: 1px solid $green-900;
-  border-radius: 6px;
-  margin: 0 auto;
-  display: block;
-}
-
 .cart__box {
   color: $white;
   position: absolute;
@@ -525,8 +551,6 @@
  
 }
 
-    // кнопка
-
 .offers {
   padding: 72px 0;
   display: grid;
@@ -545,7 +569,9 @@
     background-size: cover;
     background-position: right right;
     padding: 76px 40px 76px 32px;
-
+    &:hover{
+      box-shadow: 6px 6px 6px rgba(20, 20, 20, 0.25);
+    }
   }
 
   &__info {
@@ -624,12 +650,15 @@
   }
 
   &__btn {
-    border-radius: 1px solid $green-900;
+    background-color: #F5F5F5;
     border: none;
     text-transform: uppercase;
     @extend %lato-700;
     color: #505050;
     font-size: 15px;
+    &:hover{
+      border-bottom: 2px solid $green-900;
+    }
   }
 
   &__card {
@@ -640,7 +669,6 @@
     position: relative;
   }
   
-
   &__card-info {
     display: flex;
     flex-direction: column;
@@ -746,6 +774,9 @@
     width: 100%;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
+    &:hover{
+      box-shadow: 6px 6px 6px rgba(20, 20, 20, 0.25);
+    }
   }
 
   &__item+&__item {
@@ -794,7 +825,6 @@
 
 }
 
-
 .footer {
   background-color: $dark-800;
   padding-top: 50px;
@@ -818,28 +848,32 @@
 
   &__form {
     position: relative;
+    display: flex;
   }
 
   &__form-input {
-    position: relative;
-    width: 300px;
+    width: 182px;
     height: 40px;
-    border-radius: 6px;
-    padding: 12px;
+    border-radius: 6px 0px 0px 6px;
+    padding-left: 8px;
+    padding-right: 8px;
     font-size: 12px;
     line-height: 1.1;
     overflow: hidden;
+    border: none;
+    @extend %lato-400;
+    color: $dark-500;
+    font-size: 14px;
   }
 
   &__form-btn {
-    position: absolute;
-    padding: 10px 14px;
+    width: 118px;
+    height: 40px;
+    text-transform: uppercase;
     background-color: $green-900;
     color: $white;
     border: none;
-    border-radius: 0 6px 6px 0;
-    top: 1px;
-    right: 0;
+    border-radius: 0 6px 6px  0;
     cursor: pointer;
 
     &:hover {
